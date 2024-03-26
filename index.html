@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+  body {
+    background-color: rgba(196, 161, 6, 0.784);
+    font-family: "Figtree", sans-serif;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    height: 100vh;
+   padding: 0;
+   margin: 0;
+   /* margin-left: 400px; */
+    border-radius: 30px;
+    border: 1px solid black;
+  }
+  .svg-background {
+    width: 350px;
+    height: 200px;
+    background-image: url(./assets/images/illustration-article.svg);
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .learn {
+    background-color: rgba(196, 161, 6, 0.784) ;
+    margin-right: 300px;
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
+  .languages {
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 0;
+  }
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .footer {
+  display: flex;
+  gap: 30px;
+  margin-right: 150px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  }
+  .footer div p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  img {
+    height: 70px;
+    width: 70px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* @media (min-width:600px) and (max-width:900px) {
+    body {
+      width: 375px;
+    }
+  
+  } */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="svg-background"></div>
+      <div class="learning">
+        <p class="learn">Learning</p>
+        <p>Published 21 Dec 2023</p>
+      </div>
+      <div class="languages">
+        <h1>HTML & CSS foundations</h1>
+        <p>These languages are the backbone of every <br/> website, defining structure, content and presentation.</p>
+      </div>
+    <div class="footer">
+        <div>
+          <img src="./assets/images/image-avatar.webp" alt="Greg image">
+        </div>
+        <div> <p>Greg Hooper</p></div>
+      
+    </div>
+  </div>
+</div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+</body>
+</html>
